@@ -1,3 +1,4 @@
-insert into PERSON (ID, NAME) values (1, 'ProdUser');
-insert into PERSON (ID, NAME) values (2, 'TestUser');
-insert into PERSON (ID, NAME) values (3, 'StagingUser');
+create table PERSON (
+    ID int not null,
+    NAME varchar(100) not null
+);
